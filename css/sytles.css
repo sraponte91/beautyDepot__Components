@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+.slider__vd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.box__vd {
+    position: relative;
+    justify-content: center;
+    min-height: 70vh;
+    color: #000;
+    text-align: center;
+}
+
+.box__vd video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
